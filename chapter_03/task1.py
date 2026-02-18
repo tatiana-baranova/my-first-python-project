@@ -2,7 +2,7 @@ num = int(input("Enter num: "))
 
 isHasCar = False
 
-if num >= 55 :
+if num >= 55 or not isHasCar :
     print("Yes")
     if num == 100:
         print("Num si 100")
@@ -11,7 +11,7 @@ elif num == 40:
 elif num < 5 :
     print("Num is less 5")
 else: 
-    print("Nun < 55")
+    print("Num < 55")
 
 isHappy = True
 if not isHappy:
