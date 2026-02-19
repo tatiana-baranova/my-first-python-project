@@ -6,10 +6,21 @@
 
 #Практичне використання
 
-work = True
+# work = True
+# while work:
+#     user_input = input('Enter word STOP: ')
+#     if user_input == 'STOP':
+#         work = False
+# print('While loop is done')
 
-while work:
-    user_input = input('Enter word STOP: ')
-    if user_input == 'STOP':
-        work = False
-print('While loop is done')
+#вгадай число
+i = 7
+while True:
+    user_input = int(input("Enter the number: "))
+    if user_input == i:
+        print("Correct! 🎉")
+        break
+    elif user_input < i:
+        print("Too low!")
+    else:
+        print("Too high!")
