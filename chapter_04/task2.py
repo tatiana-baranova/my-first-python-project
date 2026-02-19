@@ -14,13 +14,32 @@
 # print('While loop is done')
 
 #вгадай число
-i = 7
-while True:
-    user_input = int(input("Enter the number: "))
-    if user_input == i:
-        print("Correct! 🎉")
-        break
-    elif user_input < i:
-        print("Too low!")
-    else:
-        print("Too high!")
+# i = 7
+# while True:
+#     user_input = int(input("Enter the number: "))
+#     if user_input == i:
+#         print("Correct! 🎉")
+#         break
+#     elif user_input < i:
+#         print("Too low!")
+#     else:
+#         print("Too high!")
+
+
+#Лічильник до n
+# n = int(input("Enter the number: "))
+# i = 1
+# while i <= n:
+#     print(i)
+#     i += 1
+
+
+#Сума чисел
+# total = 0
+# while True:
+#     n = int(input("Enter the number (0 to stop):"))
+#     if n == 0:
+#         break
+#     total += n
+#     print("Total sum", total)
+
