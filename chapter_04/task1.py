@@ -8,6 +8,9 @@
 # for i in word:
 #     print(i)
 
+# for i in range(34, 67):
+#     if i % 2 == 0:
+#         print(i)
 
 # таблиця множення
 # user_input = int(input("Enter the number: "))
@@ -76,3 +79,44 @@
 #         print(i)
 #         count +=1
 # print(f'Total prime numbers: {count}')
+
+
+# Числа у зворотному порядку
+# n = int(input("Enter the number: "))
+# for i in range(n, 0, -1):
+#     print(i)
+
+
+# Прямокутник із зірочок
+# n = int(input("Enter the number:"))
+# for i in range(n):
+#     for j in range(n):
+#         print("⭐", end="")
+#     print()
+
+
+# n = int(input("Enter the number:"))
+# for i in range(n):
+#     for j in range(i + 1):
+#         print("⭐", end="")
+#     print()
+
+# n = int(input("Enter the number:"))
+# for i in range(n):
+#     for j in range(n - i, 0, -1):
+#         print("⭐", end="")
+#     print()
+
+# n = int(input("Enter the number: "))
+# for i in range(1, n+1):
+#     for j in range(n - i):
+#         print(" ", end="")
+#     for j in range(i):
+#         print("⭐", end="")
+#     print()
+# for i in range(n-1, 0, -1):
+#     for j in range(n - i):
+#         print(" ", end="")
+#     for j in range(i):
+#         print("⭐", end="")
+#     print()
