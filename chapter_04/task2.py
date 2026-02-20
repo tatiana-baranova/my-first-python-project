@@ -51,3 +51,23 @@
 #         break
 #     print(months[i])
 #     i +=1
+
+
+# while True:
+#     n = int(input('Enter the number:'))
+#     if n == 0:
+#         break
+#     if n % 7 == 0:
+#         print('Found a number divisible by 7')
+#         break
+#     print(n)
+
+
+# while True:
+#     n = int(input("Enter thr number:"))
+#     if n < 0:
+#         continue
+#     if n % 10 == 0:
+#         print('Found a number divisible by 10')
+#         break
+#     print(n)

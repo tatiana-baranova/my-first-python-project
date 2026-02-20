@@ -152,3 +152,14 @@
 #         break
 # else:
 #     print('No numbers divisible by 7')
+
+# n = int(input("Enter the number: "))
+# for i in range(1, n+1):
+#     if i % 5 == 0:
+#         continue
+#     if i % 13 == 0:
+#         print('Found a number divisible by 13')
+#         break
+#     print(i)
+# else:
+#     print('No numbers divisible by 13')
