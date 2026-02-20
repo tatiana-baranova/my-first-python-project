@@ -43,3 +43,11 @@
 #     total += n
 #     print("Total sum", total)
 
+
+# months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August',' September', 'October', 'November', 'December']
+# i = 0
+# while i < len(months):
+#     if months[i] =='December':
+#         break
+#     print(months[i])
+#     i +=1

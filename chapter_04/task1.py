@@ -120,3 +120,35 @@
 #     for j in range(i):
 #         print("⭐", end="")
 #     print()
+
+
+# months = [
+#     'January', 'February', 'March', 'April',
+#     'May', 'June', 'July', 'August',
+#     'September', 'October', 'November', 'December'
+# ]
+# for month in months:
+#     if month == 'December':
+#         break
+#     print(month)
+
+# months = [
+#     'January', 'February', 'March', 'April',
+#     'May', 'June', 'July', 'August',
+#     'September', 'October', 'November', 'December'
+# ]
+# for i in range(len(months)):
+#     if months[i] == 'June' or months[i] == "July":
+#         continue
+#     print(months[i])
+
+
+# n = int(input("Enter the number: "))
+# found = False
+# for i in range(1, n+1):
+#     if i % 7 == 0:
+#         found = True
+#         print(f'First number divisible by 7: {i}')
+#         break
+# else:
+#     print('No numbers divisible by 7')
