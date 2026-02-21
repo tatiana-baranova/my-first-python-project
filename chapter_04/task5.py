@@ -36,3 +36,52 @@
 #     i += 1
 
 # print(hobby)
+
+# transactions = [120, 350, 90, 560, 40, 800, 150]
+# total = 0
+# n = 0
+# small = []
+
+# for i in transactions:
+#     total += i
+#     if i > 200:
+#         n += 1
+#     if i <= 150:
+#         small.append(i)
+
+# print(n)
+# print(small)
+# print(total)
+# print(len(transactions))
+
+
+# temps = [18, 22, 25, 19, 30, 15, 27]
+
+# print(max(temps))
+# print(min(temps))
+# temps.sort()
+# print(temps)
+# print(any(t > 28 for t in temps))
+# print(all(t > 10 for t in temps))
+# print(any(t == 19 for t in temps))
+
+week_temps = [
+    [18, 22, 25],
+    [19, 30, 15],
+    [27, 21, 23]
+]
+
+count = 0
+for day in week_temps:
+    for temp in day:
+        count += 1
+
+print(count)
+
+max_temp = week_temps[0][0] #береться перший елементи списку, та шукається більший елемент
+for day in week_temps:
+    for temp in day:
+        if temp > max_temp:
+            max_temp = temp
+
+print(max_temp)
