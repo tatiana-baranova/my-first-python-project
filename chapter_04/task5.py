@@ -65,23 +65,23 @@
 # print(all(t > 10 for t in temps))
 # print(any(t == 19 for t in temps))
 
-week_temps = [
-    [18, 22, 25],
-    [19, 30, 15],
-    [27, 21, 23]
-]
+# week_temps = [
+#     [18, 22, 25],
+#     [19, 30, 15],
+#     [27, 21, 23]
+# ]
 
-count = 0
-for day in week_temps:
-    for temp in day:
-        count += 1
+# count = 0
+# for day in week_temps:
+#     for temp in day:
+#         count += 1
 
-print(count)
+# print(count)
 
-max_temp = week_temps[0][0] #береться перший елементи списку, та шукається більший елемент
-for day in week_temps:
-    for temp in day:
-        if temp > max_temp:
-            max_temp = temp
+# max_temp = week_temps[0][0] #береться перший елементи списку, та шукається більший елемент
+# for day in week_temps:
+#     for temp in day:
+#         if temp > max_temp:
+#             max_temp = temp
 
-print(max_temp)
+# print(max_temp)
