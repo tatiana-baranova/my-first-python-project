@@ -12,7 +12,7 @@
 #     if i % 2 == 0:
 #         print(i)
 
-# таблиця множення
+# # таблиця множення
 # user_input = int(input("Enter the number: "))
 
 # for i in range(1, 11):

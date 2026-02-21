@@ -71,3 +71,18 @@
 #         print('Found a number divisible by 10')
 #         break
 #     print(n)
+
+# count = 0
+# total = 0
+# while True:
+#     grade = int(input("Enter grade (0 to stop): "))
+#     if grade == 0:
+#         break
+#     count +=1
+#     total += grade
+
+# if count > 0:
+#     average = total / count
+#     print(f"Average grade: {average:.2f}")
+# else:
+#     print('No grades entered.')
