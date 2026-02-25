@@ -75,7 +75,6 @@
 # for day in week_temps:
 #     for temp in day:
 #         count += 1
-
 # print(count)
 
 # max_temp = week_temps[0][0] #береться перший елементи списку, та шукається більший елемент
@@ -83,5 +82,4 @@
 #     for temp in day:
 #         if temp > max_temp:
 #             max_temp = temp
-
 # print(max_temp)
