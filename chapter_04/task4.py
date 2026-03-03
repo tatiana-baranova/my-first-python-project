@@ -52,30 +52,34 @@
 #     print("User not found")
 
 
-# users = [
-#     { "id": "01",
-#     "username": "Alisa",
-#     "password": 123456,
-#     "role": "admin"} 
-#     ,
-#     {"id": "02",
-#     "username": "Lui",
-#     "password": 456789,
-#     "role": "user"} 
-#     ,
-#     {"id": "03",
-#     "username": "Ron",
-#     "password": 987654,
-#     "role": "user"}
-#     ,
-#     {"id": "04",
-#     "username": "Mark",
-#     "password": 456123,
-#     "role": "user"}
-# ]
-# username = input("Username: ").lower()
-# password = input("Password: ")
+users = [
+    { "id": "01",
+    "username": "Alisa",
+    "password": 123456,
+    "role": "admin"} 
+    ,
+    {"id": "02",
+    "username": "Lui",
+    "password": 456789,
+    "role": "user"} 
+    ,
+    {"id": "03",
+    "username": "Ron",
+    "password": 987654,
+    "role": "user"}
+    ,
+    {"id": "04",
+    "username": "Mark",
+    "password": 456123,
+    "role": "user"}
+]
+username = input("Username: ")
+password = int(input("Password: "))
+user = next((u for u in users if u["username"] == username), None)
 
-# print({"successful": True, "message": "Access allowed"})
-# print("Incorrect password")
-# print("User not found")
+if user is None: 
+    print("User not found")
+elif user["password"] != password:
+    print("Incorrect password")
+else:
+    print("Access allowed")
