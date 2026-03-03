@@ -34,19 +34,48 @@
 # else:
 #     print("User not found")
 
-users = {
-    "admin": "1234",
-    "tanya": "qwerty",
-    "guest": "0000"
-}
+# users = {
+#     "admin": "1234",
+#     "tanya": "qwerty",
+#     "guest": "0000"
+# }
 
-login = input("Login: ")
-password = input("Password: ")
+# login = input("Login: ")
+# password = input("Password: ")
 
-if login in users:
-    if users[login] == password:
-        print("Login successful")
-    else:
-        print("Incorrect password")
-else:
-    print("User not found")
+# if login in users:
+#     if users[login] == password:
+#         print("Login successful")
+#     else:
+#         print("Incorrect password")
+# else:
+#     print("User not found")
+
+
+# users = [
+#     { "id": "01",
+#     "username": "Alisa",
+#     "password": 123456,
+#     "role": "admin"} 
+#     ,
+#     {"id": "02",
+#     "username": "Lui",
+#     "password": 456789,
+#     "role": "user"} 
+#     ,
+#     {"id": "03",
+#     "username": "Ron",
+#     "password": 987654,
+#     "role": "user"}
+#     ,
+#     {"id": "04",
+#     "username": "Mark",
+#     "password": 456123,
+#     "role": "user"}
+# ]
+# username = input("Username: ").lower()
+# password = input("Password: ")
+
+# print({"successful": True, "message": "Access allowed"})
+# print("Incorrect password")
+# print("User not found")
